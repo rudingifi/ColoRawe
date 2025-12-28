@@ -1,1 +1,74 @@
- 
+.header .container {
+  display: flex;
+  background-color: #012D63;
+}
+.header-logo {
+  width: 100px;
+  height: 60px;
+  margin-right: auto;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-list {
+    display: flex;
+    gap: 30px;
+    margin-right: 340px;
+}
+.header-link {
+        font-family: "Roboto", sans-serif;
+        font-style: light;
+            font-weight: 300;
+            font-size: 14px;
+            letter-spacing: 0.02em;
+            color: #C7C7C7;
+}
+.header-link:hover {
+    display: flex;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+/*MAIN*/
+/*MAIN*/
+/*MAIN*/
+/*MAIN*/
+/*MAIN*/
+/*MAIN*/
+/*MAIN*/
+.main-hero  {
+    display: flex;
+    background-image: url(./immg/Group\ 37\ \(1\)\ 1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 858px;
+    
+}
+
+.hero-logo::before {
+    background-image: url(./immg/logo\ \(2\).png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 160px;
+    height: 120px;
+}
+.hero-logo{
+    font-family: "PT serif", serif;
+font-weight: 400;
+font-size: 144px;
+color: #fff;
+font-style: normal;
+}
+.hero-title {
+    font-family: "Playfair Display SC", serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: #fff;
+    font-style: normal;
+}
+    
