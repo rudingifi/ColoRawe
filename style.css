@@ -1,7 +1,12 @@
-.header .container {
+.header{
   display: flex;
   background-color: #012D63;
   
+}
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .header-logo {
   width: 100px;
@@ -46,6 +51,7 @@
     background-repeat: no-repeat;
     height: 858px;
     
+    
 }
 
 .hero-logo::before {
@@ -54,7 +60,6 @@
     background-repeat: no-repeat;
     content: "";
     display: block;
-    margin: 0 auto;
     width: 160px;
     height: 120px;
 }
@@ -64,32 +69,24 @@ font-weight: 400;
 font-size: 48px;
 color: #fff;
 font-style: normal;
-width: 178px;
-height: 86px;
+
 }
 .hero-title {
     font-family: "Playfair Display SC", serif;
-    width: 640px;
-    height: 192px;
     font-weight: 400;
     font-size: 144px;
     color: #fff;
     font-style: normal;
-    margin-top: 159px;
-    margin-left: -157px;
+    margin: 265px 0 643px 447px;
+    max-width: 640px;
 }
 
 .hero-subtitle {
     font-family: "Playfair Display SC", serif;
     font-style: normal;
-    width: 540px;
-    height: 96px;
     font-weight: 400;
     font-size: 72px;
     color: #FFFFFF;
-    margin-top: 300px;
-    margin-left: -640px;
-    
 }
 .hero-description {
     font-family: "Roboto", sans-serif;
@@ -98,10 +95,6 @@ height: 86px;
     font-size: 18px;
     line-height: 28px;
     color: #FFFFFF;
-    width: 508px;
-    height: 84px;
-    margin-top: 420px;
-    margin-left: -300px;
 }
 .hero-button {
     font-family: "Roboto", sans-serif;
@@ -110,8 +103,19 @@ height: 86px;
     background-color: #8E32C6;
     color: #FFFFFF;
     border-radius: 10px;
-    width: 254px;
-    height: 67px;
-    margin-top: 550px;
-    margin-left: -200px;
+}
+
+/*FEAUTURES*/
+/*FEAUTURES*/
+/*FEAUTURES*/
+/*FEAUTURES*/
+/*FEAUTURES*/
+/*FEAUTURES*/
+
+.section-features {
+    display: flex;
+    
+    background-repeat: no-repeat;
+    height: 606px;
+    
 }
