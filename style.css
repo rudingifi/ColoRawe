@@ -112,10 +112,89 @@ font-style: normal;
 /*FEAUTURES*/
 /*FEAUTURES*/
 
-.section-features {
+.section-features{
     display: flex;
-    
     background-repeat: no-repeat;
     height: 606px;
+    background: #012D63;
+    background: radial-gradient(circle, rgba(1, 45, 99, 1) 0%, rgba(0, 183, 255, 1) 50%, rgba(132, 31, 255, 1) 100%);
+}
+
+.quality {
+    display: flex;
+    font-family: "Playfair Display SC", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.quality::after {
+    background-image: url(./immg/zvezdi.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: "";
+    height: 240px;
+    width: 240px;
+    margin-right: 150px;
+}
+
+.paint {
+    display: flex;
+    font-family: "Playfair Display SC", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+.paint::before {
+    background-image: url(./immg/kraski.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: "";
+    height: 240px;
+    width: 240px;
     
+}
+
+.shipping {
+    display: flex;
+    font-family: "Playfair Display SC", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+.shipping::before {
+    background-image: url(./immg/gruzan.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: "";
+    height: 240px;
+    width: 240px;
+}
+
+/*section rewiews*/
+/*section rewiews*/
+/*section rewiews*/
+/*section rewiews*/
+/*section rewiews*/
+/*section rewiews*/
+/*section rewiews*/
+/*section rewiews*/
+/*section rewiews*/
+/*section rewiews*/
+.section-reviews {
+    display: flex;
+    background-color: #012D63;
+    height: 520px;
+}
+
+.reviews-title {
+    font-family: "Playfair Display SC", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    color: #FFFFFF;
+    margin: 60px 0 40px 0;
 }
