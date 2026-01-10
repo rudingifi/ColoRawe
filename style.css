@@ -196,5 +196,221 @@ font-style: normal;
     font-weight: 400;
     font-size: 48px;
     color: #FFFFFF;
-    margin: 60px 0 40px 0;
+    margin-bottom: 430px;
+    margin-top: 25px;
+    margin-left: 633px;
+    margin-right: 633px;
+}
+.reviews-description.gradient1 {
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    color: #FFFFFF;
+    max-width: 228px;
+    background: #00E5E6;
+    background: linear-gradient(320deg, rgba(0, 229, 230, 1) 0%, rgba(154, 118, 249, 1) 30%, rgba(204, 94, 194, 1) 60%, rgba(0, 168, 247, 1) 90%);
+    margin-left: -941px;
+    margin-top: 114px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.reviews-date.g1 {
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: #C7C7C7;
+    margin-left: -941px;
+    margin-top: 130px;
+    max-width: 36px;
+    background: #00E5E6;
+    background: linear-gradient(320deg, rgba(0, 229, 230, 1) 0%, rgba(154, 118, 249, 1) 30%, rgba(204, 94, 194, 1) 60%, rgba(0, 168, 247, 1) 90%);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.reviews-name.g1 {
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-left: -941px;
+    margin-top: 8px;
+    background: #00E5E6;
+    background: linear-gradient(320deg, rgba(0, 229, 230, 1) 0%, rgba(154, 118, 249, 1) 30%, rgba(204, 94, 194, 1) 60%, rgba(0, 168, 247, 1) 90%);
+    max-width: 130px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.reviews-year.g1 {
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: #C7C7C7;
+    margin-left: -941px;
+    margin-top: 130px;
+    max-width: 36px;
+    background: #00E5E6;
+    background: linear-gradient(320deg, rgba(0, 229, 230, 1) 0%, rgba(154, 118, 249, 1) 30%, rgba(204, 94, 194, 1) 60%, rgba(0, 168, 247, 1) 90%);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.reviews-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviews-description.gradient2 {
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    color: #FFFFFF;
+    max-width: 228px;
+    background: #FF68B4;
+    background: linear-gradient(30deg, rgba(255, 104, 180, 1) 0%, rgba(255, 69, 225, 1) 30%, rgba(206, 58, 255, 1) 60%, rgba(137, 97, 255, 1) 90%);
+    margin-left: -600px;
+    margin-top: 114px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.reviews-date.g2 {
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: #C7C7C7;
+    margin-left: -600px;
+    margin-top: 130px;
+    max-width: 36px;
+    background: #FF68B4;
+    background: linear-gradient(30deg, rgba(255, 104, 180, 1) 0%, rgba(255, 69, 225, 1) 30%, rgba(206, 58, 255, 1) 60%, rgba(137, 97, 255, 1) 90%);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.reviews-name.g2 {
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-left: -600px;
+    margin-top: 8px;
+    background: #FF68B4;
+    background: linear-gradient(30deg, rgba(255, 104, 180, 1) 0%, rgba(255, 69, 225, 1) 30%, rgba(206, 58, 255, 1) 60%, rgba(137, 97, 255, 1) 90%);
+    max-width: 130px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.reviews-year.g2 {
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: #C7C7C7;
+    margin-left: -600px;
+    margin-top: 130px;
+    max-width: 36px;
+    background: #FF68B4;
+    background: linear-gradient(30deg, rgba(255, 104, 180, 1) 0%, rgba(255, 69, 225, 1) 30%, rgba(206, 58, 255, 1) 60%, rgba(137, 97, 255, 1) 90%);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.reviews-description.gradient3 {
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    color: #FFFFFF;
+    max-width: 228px;
+    background: #FFE128;
+    background: linear-gradient(30deg, rgba(255, 225, 40, 1) 0%, rgba(255, 155, 92, 1) 30%, rgba(255, 131, 129, 1) 60%, rgba(255, 84, 137, 1) 90%);
+    margin-left: -300px;
+    margin-top: 114px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.reviews-name.g3 {
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-left: -300px;
+    margin-top: 8px;
+    background: #FFE128;
+    background: linear-gradient(30deg, rgba(255, 225, 40, 1) 0%, rgba(255, 155, 92, 1) 30%, rgba(255, 131, 129, 1) 60%, rgba(255, 84, 137, 1) 90%);
+    max-width: 130px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.reviews-date.g3 {
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: #C7C7C7;
+    margin-left: -300px;
+    margin-top: 130px;
+    max-width: 36px;
+    background: #FFE128;
+    background: linear-gradient(30deg, rgba(255, 225, 40, 1) 0%, rgba(255, 155, 92, 1) 30%, rgba(255, 131, 129, 1) 60%, rgba(255, 84, 137, 1) 90%);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.reviews-year.g3 {
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: #C7C7C7;
+    margin-left: -300px;
+    margin-top: 130px;
+    max-width: 36px;
+    background: #FFE128;
+    background: linear-gradient(30deg, rgba(255, 225, 40, 1) 0%, rgba(255, 155, 92, 1) 30%, rgba(255, 131, 129, 1) 60%, rgba(255, 84, 137, 1) 90%);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
