@@ -5,19 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./reset.css" />
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <header class="header">
       <div class="container">
-        <img src="./immg/logo (2).png" alt="logo" class="header-logo" />
+        <img src="./immg/logo.png" alt="logo" class="header-logo" />
         <nav class="header-nav">
           <ul class="header-list">
             <li class="header-item">
@@ -37,20 +34,17 @@
             </li>
             <li class="header-item"><a class="header-link" href="">Order</a></li>
           </ul>
-        </nav>
-        <ul>
-          <li><button class="button">Ua</button></li>
-          <li><button class="button">Eng</button></li>
-        </ul>
+          </nav>
       </div>
     </header>
     <main class="main">
       <section class="main-hero">
-        <div class="container">
-          <p class="hero-logo">C&R</p>
-          <h1 class="hero-title">ColoRawe</h1>
-          <h2 class="hero-subtitle">Your dream Nike</h2>
-          <p class="hero-description">
+        <div class="container hero-container">
+          <img src="./immg/logo.png" alt="logo" class="hero-image"/>
+          <p class="hero-mark">C&R</p>
+          <h1 class="hero-subtitle">ColoRawe</h1>
+          <h2 class="hero-subtext">Your dream Nike</h2>
+          <p class="hero-text">
             On this site you can find custom Nike sneakers of your dreams. The
             original company caт`t create such beautiful sneakers as we do. Good
             luck finding your way in the world of custom sneakers.
@@ -63,77 +57,80 @@
         <div class="container">
           <ul class="featuers-list">
             <li class="features-item">
-              <p class="quality">Premium Quality</p>
+              <p class="features-text txt1">Premium Quality</p>
+              <img src="./immg/zvezdi.png" alt="zvezdi" class="f-image img1">
             </li>
             <li class="features-item">
-              <p class="paint">Incredible paint</p>
+              <img src="./immg/kraski.png" alt="kraski" class="f-image img2">
+              <p class="features-text txt2">Indelible paint</p>
             </li>
             <li class="features-item">
-              <p class="shipping">Fast shipping</p>
+              <p class="features-text txt3">Fast shipping</p>
+              <img src="./immg/gruzan.png" alt="gruzan" class="f-image img3">
             </li>
           </ul>
         </div>
       </section>
-
+      
       <section class="section-reviews">
         <div class="container">
           <h2 class="reviews-title">Reviews</h2>
           <ul class="reviews-list">
-            <li class="reviews-item">
-              <h2 class="reviews-description gradient1">
+            <li class="reviews-item g1">
+              <p class="reviews-description">
                 Sneakers are very comfortable and well painted, nothing has worn
                 off in a year.
-              </h2>
-              <h3 class="reviews-date g1">25.11</h3>
-              <p class="reviews-name g1">John teylor</p>
-              <h4 class="reviews-year g1">With us from 2018</h4>
+              </p>
+              <p class="reviews-date">25.11</p>
+              <p class="reviews-name">John teylor</p>
+              <p class="reviews-year">With us from 2018</p>
             </li>
-            <li class="reviews-item">
-              <h2 class="reviews-description gradient2">
+            <li class="reviews-item g2">
+              <p class="reviews-description">
                 I'm very happy with this color scheme. They match all my
                 clothes.
-              </h2>
-              <h3 class="reviews-date g2">05.01</h3>
-              <p class="reviews-name g2">Elizabeth Garsia</p>
-              <h4 class="reviews-year g2">With us from 2020</h4>
+              </p>
+              <p class="reviews-date">05.01</p>
+              <p class="reviews-name">Elizabeth Garsia</p>
+              <p class="reviews-year">With us from 2020</p>
             </li>
-            <li class="reviews-item">
-              <h2 class="reviews-description gradient3">
+            <li class="reviews-item g3">
+              <p class="reviews-description">
                 Just right if you need to go to a party. I use them actively,
                 the paint is super.
-              </h2>
-              <h3 class="reviews-date g3">18.06</h3>
-              <p class="reviews-name g3">Tom Maquare</p>
-              <h4 class="reviews-year g3">With us from 2019</h4>
+              </p>
+              <p class="reviews-date">18.06</p>
+              <p class="reviews-name">Tom Maquare</p>
+              <p class="reviews-year">With us from 2019</p>
             </li>
           </ul>
         </div>
       </section>
 
-      <section class="section-Order">
+      <section class="section-order">
         <div class="container">
-          <h1 class="order-title">Order</h1>
+          <h2 class="order-title">Order</h2>
           <ul class="order-list">
             <li class="order-item">
-              <input type="email" class="Write-email" />
+              <input type="email" class="write-email" />
             </li>
             <li class="order-item">
               <button class="confirm-button">Confirm</button>
             </li>
             <li class="order-item">
-              <input type="country" class="Write-country" />
+              <input type="country" class="write-country" />
             </li>
             <li class="order-item">
               <button class="confirm-button">Confirm</button>
             </li>
             <li class="order-item">
-              <input type="city" class="Write-city" />
+              <input type="city" class="write-city" />
             </li>
             <li class="order-item">
               <button class="confirm-button">Confirm</button>
             </li>
             <li class="order-item">
-              <input type="address" class="Write-adress" />
+              <input type="address" class="write-address" />
             </li>
             <li class="order-item">
               <button class="confirm-button">Confirm</button>

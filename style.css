@@ -1,416 +1,343 @@
-.header{
-  display: flex;
+.header {
   background-color: #012D63;
-  
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
+
+.container {
+    width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+    outline: 1px solid red;
+}
+
 .header .container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+    display: flex;
+    align-items: center;
 }
+
 .header-logo {
   width: 100px;
   height: 60px;
   margin-right: auto;
 }
 
-.header-nav {
-  display: flex;
-  align-items: center;
-}
+
 
 .header-list {
     display: flex;
     gap: 30px;
-    margin-right: 340px;
+    align-items: center;
 }
 .header-link {
-        font-family: "Roboto", sans-serif;
-        font-style: light;
-            font-weight: 300;
-            font-size: 14px;
-            letter-spacing: 0.02em;
-            color: #C7C7C7;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: #c7c7c7;
 }
+
 .header-link:hover {
-    display: flex;
-    font-weight: 400;
     color: #FFFFFF;
 }
-/*MAIN*/
-/*MAIN*/
-/*MAIN*/
-/*MAIN*/
-/*MAIN*/
-/*MAIN*/
-/*MAIN*/
-.main-hero {
-    display: flex;
-    background-image: url(./immg/Group\ 37\ \(1\)\ 1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 858px;
-    
-    
+
+.eng {
+    font-weight: 400;
+    color: #fff;
 }
 
-.hero-logo::before {
-    background-image: url(./immg/logo\ \(2\).png);
-    background-size: contain;
+.main-hero {
+    padding-bottom: 184px;
+    padding-top: 94px;
+    background-image: url(./immg/background.jpg);
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-    content: "";
-    display: block;
+}
+
+.hero-image {
+    padding-left: 6px;
     width: 160px;
     height: 120px;
+    margin-bottom: -35px;
 }
-.hero-logo{
-    font-family: "PT serif", serif;
-font-weight: 400;
-font-size: 48px;
-color: #fff;
-font-style: normal;
 
-}
-.hero-title {
-    font-family: "Playfair Display SC", serif;
+.hero-mark {
+    font-family: 'PT Serif', sans-serif;
     font-weight: 400;
-    font-size: 144px;
+    font-size: 48px;
     color: #fff;
-    font-style: normal;
-    margin: 265px 0 643px 447px;
-    max-width: 640px;
+    padding-left: 31px;
 }
 
 .hero-subtitle {
-    font-family: "Playfair Display SC", serif;
-    font-style: normal;
+    font-family: "Playfair Display sc", sans-serif;
     font-weight: 400;
-    font-size: 72px;
-    color: #FFFFFF;
+    font-size: 144px;
+    color: #fff;
 }
-.hero-description {
+
+.section-features {
+    padding-top: 105px;
+    padding-bottom: 105px;
+    background-color: #012D63;
+}
+
+.section-features .container {
+    height: 606px;
+}
+
+.hero-text {
     font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 28px;
-    color: #FFFFFF;
+    margin-top: 12px;
+    margin-bottom: 41px;
+    width: 508px;
+    font-weight: 400;
+font-size: 18px;
+color: #fff;
 }
+
+.hero-subtext {
+    font-family: "Playfair Display sc", sans-serif;
+    font-weight: 400;
+font-size: 72px;
+color: #fff;
+}
+
 .hero-button {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 24px;
-    background-color: #8E32C6;
-    color: #FFFFFF;
+    color: #fff;
     border-radius: 10px;
+    width: 254px;
+    height: 67px;
+    background-color: #8e32c6;
 }
 
-/*FEAUTURES*/
-/*FEAUTURES*/
-/*FEAUTURES*/
-/*FEAUTURES*/
-/*FEAUTURES*/
-/*FEAUTURES*/
 
-.section-features{
-    display: flex;
-    background-repeat: no-repeat;
-    height: 606px;
-    background: #012D63;
-    background: radial-gradient(circle, rgba(1, 45, 99, 1) 0%, rgba(0, 183, 255, 1) 50%, rgba(132, 31, 255, 1) 100%);
+.f-image {
+    width: 240px;
+    height: 240px; 
 }
 
-.quality {
+.features-text {
     display: flex;
-    font-family: "Playfair Display SC", serif;
-    font-style: normal;
+    font-family: "Playfair Display sc", sans-serif;
     font-weight: 400;
     font-size: 36px;
-    color: #FFFFFF;
+    text-align: center;
+    color: #fff;
 }
 
-.quality::after {
-    background-image: url(./immg/zvezdi.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    content: "";
-    height: 240px;
-    width: 240px;
-    margin-right: 150px;
-}
-
-.paint {
+.featuers-list {
     display: flex;
-    font-family: "Playfair Display SC", serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    color: #FFFFFF;
-}
-.paint::before {
-    background-image: url(./immg/kraski.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    content: "";
-    height: 240px;
-    width: 240px;
-    
+    gap: 90px;
+    justify-content: center;
+    align-items: center;
 }
 
-.shipping {
+.features-item {
     display: flex;
-    font-family: "Playfair Display SC", serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    color: #FFFFFF;
-}
-.shipping::before {
-    background-image: url(./immg/gruzan.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    content: "";
-    height: 240px;
-    width: 240px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
 }
 
-/*section rewiews*/
-/*section rewiews*/
-/*section rewiews*/
-/*section rewiews*/
-/*section rewiews*/
-/*section rewiews*/
-/*section rewiews*/
-/*section rewiews*/
-/*section rewiews*/
-/*section rewiews*/
 .section-reviews {
-    display: flex;
+    padding-top: 114px;
+    padding-bottom: 114px;
     background-color: #012D63;
-    height: 520px;
 }
 
 .reviews-title {
-    font-family: "Playfair Display SC", serif;
-    font-style: normal;
+    font-family: "Playfair Display sc", sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.reviews-list {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviews-description {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: #fff;
+    width: 228px;
+    height: 112px;
+    margin-bottom: 8px;
+    margin-top: 49px;
+    margin-right: 14px;
+    margin-left: 14px;
+}
+
+.reviews-date {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #D8D8D8;
+    width: 36px;
+    height: 16px;
+    margin-bottom: 47px;
+    margin-left: 14px;
+}
+
+.reviews-name {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    width: 101px;
+    height: 16px;
+    margin-left: 49px;
+}
+
+
+.reviews-year {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #D8D8D8;
+    width: 99px;
+    height: 14px;
+    margin-left: 49px;
+}
+
+.reviews-item.g1 {
+    width: 255px;
+    height: 292px;
+    background: linear-gradient(
+    150deg,rgba(0, 229, 230, 1) 0%,rgba(0, 168, 247, 1) 30%,rgba(154, 118, 249, 1) 60%,rgba(204, 94, 194, 1) 100%);
+    border-radius: 15px;
+    box-shadow:0px 14px 0px -5px rgba(123, 84, 178, 0.75),
+    0px 30px 0px -13px rgba(83, 57, 120, 0.75);
+}
+
+.reviews-item.g2 {
+    width: 255px;
+    height: 292px;
+    background: #FF68B4;
+    background: linear-gradient(150deg, rgba(255, 104, 180, 1) 0%, rgba(255, 69, 225, 1) 30%, rgba(206, 58, 255, 1) 60%, rgba(137, 97, 255, 1) 100%);
+    border-radius: 15px;
+    box-shadow: 0px 14px 0px -5px rgba(145,89,177,0.75),
+    0px 30px 0px -13px rgba(97,51,124,0.75);
+    
+}
+
+.reviews-item.g3 {
+    width: 255px;
+    height: 292px;
+    background: #FFE128;
+    background: linear-gradient(150deg, rgba(255, 225, 40, 1) 0%, rgba(255, 155, 92, 1) 30%, rgba(255, 131, 129, 1) 60%, rgba(255, 84, 137, 1) 100%);   
+    border-radius: 15px;
+    box-shadow: 0px 14px 0px -5px rgba(185,90,76,0.75),
+    0px 30px 0px -13px rgba(115,47,38,0.75);
+}
+
+.section-order {
+    padding-top: 124px;
+    padding-bottom: 124px;
+    background-color: #012D63;
+}
+
+.order-title {
+    font-family: "Playfair Display sc", sans-serif;
     font-weight: 400;
     font-size: 48px;
     color: #FFFFFF;
-    margin-bottom: 430px;
-    margin-top: 25px;
-    margin-left: 633px;
-    margin-right: 633px;
+    text-align: center;
+    margin-bottom: 21px;
 }
-.reviews-description.gradient1 {
-    display: flex;
+
+.write-email {
+    width: 690px;
+    height: 60px;
+    border-radius: 10px;
     font-family: "Roboto", sans-serif;
-    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    margin-top: 19px;
+    margin-bottom: 19px;
+    margin-left: 210px;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.write-country {
+    width: 580px;
+    height: 50px;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 24px;
-    line-height: 100%;
-    color: #FFFFFF;
-    max-width: 228px;
-    background: #00E5E6;
-    background: linear-gradient(320deg, rgba(0, 229, 230, 1) 0%, rgba(154, 118, 249, 1) 30%, rgba(204, 94, 194, 1) 60%, rgba(0, 168, 247, 1) 90%);
-    margin-left: -941px;
-    margin-top: 114px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    margin-top: 19px;
+    margin-bottom: 19px;
+    margin-left: 265px;
+    border-radius: 50px;
 }
 
-.reviews-date.g1 {
-    display: flex;
+.write-city {
+    width: 580px;
+    height: 50px;
+    border-radius: 10px;
     font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    letter-spacing: 0.02em;
-    color: #C7C7C7;
-    margin-left: -941px;
-    margin-top: 130px;
-    max-width: 36px;
-    background: #00E5E6;
-    background: linear-gradient(320deg, rgba(0, 229, 230, 1) 0%, rgba(154, 118, 249, 1) 30%, rgba(204, 94, 194, 1) 60%, rgba(0, 168, 247, 1) 90%);
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.reviews-name.g1 {
-    display: flex;
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    color: #FFFFFF;
-    margin-left: -941px;
-    margin-top: 8px;
-    background: #00E5E6;
-    background: linear-gradient(320deg, rgba(0, 229, 230, 1) 0%, rgba(154, 118, 249, 1) 30%, rgba(204, 94, 194, 1) 60%, rgba(0, 168, 247, 1) 90%);
-    max-width: 130px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.reviews-year.g1 {
-    display: flex;
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    letter-spacing: 0.02em;
-    color: #C7C7C7;
-    margin-left: -941px;
-    margin-top: 130px;
-    max-width: 36px;
-    background: #00E5E6;
-    background: linear-gradient(320deg, rgba(0, 229, 230, 1) 0%, rgba(154, 118, 249, 1) 30%, rgba(204, 94, 194, 1) 60%, rgba(0, 168, 247, 1) 90%);
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-.reviews-list {
-    display: flex;
-    justify-content: space-between;
-}
-
-.reviews-description.gradient2 {
-    display: flex;
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    line-height: 100%;
-    color: #FFFFFF;
-    max-width: 228px;
-    background: #FF68B4;
-    background: linear-gradient(30deg, rgba(255, 104, 180, 1) 0%, rgba(255, 69, 225, 1) 30%, rgba(206, 58, 255, 1) 60%, rgba(137, 97, 255, 1) 90%);
-    margin-left: -600px;
-    margin-top: 114px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-.reviews-date.g2 {
-    display: flex;
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    letter-spacing: 0.02em;
-    color: #C7C7C7;
-    margin-left: -600px;
-    margin-top: 130px;
-    max-width: 36px;
-    background: #FF68B4;
-    background: linear-gradient(30deg, rgba(255, 104, 180, 1) 0%, rgba(255, 69, 225, 1) 30%, rgba(206, 58, 255, 1) 60%, rgba(137, 97, 255, 1) 90%);
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-.reviews-name.g2 {
-    display: flex;
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    color: #FFFFFF;
-    margin-left: -600px;
-    margin-top: 8px;
-    background: #FF68B4;
-    background: linear-gradient(30deg, rgba(255, 104, 180, 1) 0%, rgba(255, 69, 225, 1) 30%, rgba(206, 58, 255, 1) 60%, rgba(137, 97, 255, 1) 90%);
-    max-width: 130px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-.reviews-year.g2 {
-    display: flex;
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    letter-spacing: 0.02em;
-    color: #C7C7C7;
-    margin-left: -600px;
-    margin-top: 130px;
-    max-width: 36px;
-    background: #FF68B4;
-    background: linear-gradient(30deg, rgba(255, 104, 180, 1) 0%, rgba(255, 69, 225, 1) 30%, rgba(206, 58, 255, 1) 60%, rgba(137, 97, 255, 1) 90%);
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    margin-top: 19px;
+    margin-bottom: 19px;
+    margin-left: 265px;
+    border-radius: 50px;
 }
 
-.reviews-description.gradient3 {
-    display: flex;
+.write-address {
+    width: 580px;
+    height: 50px;
+    border-radius: 10px;
     font-family: "Roboto", sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    line-height: 100%;
-    color: #FFFFFF;
-    max-width: 228px;
-    background: #FFE128;
-    background: linear-gradient(30deg, rgba(255, 225, 40, 1) 0%, rgba(255, 155, 92, 1) 30%, rgba(255, 131, 129, 1) 60%, rgba(255, 84, 137, 1) 90%);
-    margin-left: -300px;
-    margin-top: 114px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    margin-top: 19px;
+    margin-bottom: 19px;
+    margin-left: 265px;
+    border-radius: 50px;
 }
 
-.reviews-name.g3 {
-    display: flex;
+.nike-button {
     font-family: "Roboto", sans-serif;
-    font-style: normal;
     font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+    border-radius: 10px;
+    width: 254px;
+    height: 67px;
+    background-color: #8e32c6;
+    margin-left: 443px;
+}
+
+
+.section-podval {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background-color: #021635;
+}
+
+.podval-item {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
     font-size: 18px;
     color: #FFFFFF;
-    margin-left: -300px;
-    margin-top: 8px;
-    background: #FFE128;
-    background: linear-gradient(30deg, rgba(255, 225, 40, 1) 0%, rgba(255, 155, 92, 1) 30%, rgba(255, 131, 129, 1) 60%, rgba(255, 84, 137, 1) 90%);
-    max-width: 130px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 }
 
-.reviews-date.g3 {
-    display: flex;
+.podval-text {
     font-family: "Roboto", sans-serif;
-    font-style: normal;
     font-weight: 300;
-    font-size: 14px;
-    letter-spacing: 0.02em;
-    color: #C7C7C7;
-    margin-left: -300px;
-    margin-top: 130px;
-    max-width: 36px;
-    background: #FFE128;
-    background: linear-gradient(30deg, rgba(255, 225, 40, 1) 0%, rgba(255, 155, 92, 1) 30%, rgba(255, 131, 129, 1) 60%, rgba(255, 84, 137, 1) 90%);
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.reviews-year.g3 {
-    display: flex;
-    font-family: "Roboto", sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    letter-spacing: 0.02em;
-    color: #C7C7C7;
-    margin-left: -300px;
-    margin-top: 130px;
-    max-width: 36px;
-    background: #FFE128;
-    background: linear-gradient(30deg, rgba(255, 225, 40, 1) 0%, rgba(255, 155, 92, 1) 30%, rgba(255, 131, 129, 1) 60%, rgba(255, 84, 137, 1) 90%);
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    font-size: 18px;
+    color: #FFFFFF;
 }
