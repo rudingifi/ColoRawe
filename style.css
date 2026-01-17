@@ -11,7 +11,7 @@
     outline: 1px solid red;
 }
 
-.header .container {
+.header .header-container {
     display: flex;
     align-items: center;
 }
@@ -49,9 +49,9 @@
     padding-bottom: 184px;
     padding-top: 94px;
     background-image: url(./immg/background.jpg);
-    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .hero-image {
@@ -76,15 +76,15 @@
     color: #fff;
 }
 
-.section-features {
+.section-features{
     padding-top: 105px;
     padding-bottom: 105px;
-    background-color: #012D63;
+    background-image: url("./immg/tipo-gradient_2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
-.section-features .container {
-    height: 606px;
-}
 
 .hero-text {
     font-family: "Roboto", sans-serif;
@@ -146,8 +146,11 @@ color: #fff;
 .section-reviews {
     padding-top: 114px;
     padding-bottom: 114px;
-    background-color: #012D63;
+    background-image: url("./immg/tipo-gradient.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 
 .reviews-title {
     font-family: "Playfair Display sc", sans-serif;
@@ -244,7 +247,10 @@ color: #fff;
 .section-order {
     padding-top: 124px;
     padding-bottom: 124px;
-    background-color: #012D63;
+    background-image: url("./immg/fon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .order-title {
@@ -256,10 +262,13 @@ color: #fff;
     margin-bottom: 21px;
 }
 
+.order-item {
+    
+}
+
 .write-email {
     width: 690px;
     height: 60px;
-    border-radius: 10px;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 28px;
@@ -307,6 +316,19 @@ color: #fff;
     margin-bottom: 19px;
     margin-left: 265px;
     border-radius: 50px;
+}
+
+.confirm-button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    color: #8D8D8D;
+    align-items: center;
+    width: 250px;
+    height: 50px;
+    margin-left: -263px;
+    border-radius: 50px;
+    
 }
 
 .nike-button {
