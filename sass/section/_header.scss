@@ -1,0 +1,40 @@
+.header {
+  background-color: #012D63;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+
+.header .header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+  width: 100px;
+  height: 60px;
+  margin-right: auto;
+}
+
+
+
+.header-list {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.header-link {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: #c7c7c7;
+}
+
+.header-link:hover {
+    color: #FFFFFF;
+}
+
+.eng {
+    font-weight: 400;
+    color: #fff;
+}

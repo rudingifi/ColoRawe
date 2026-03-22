@@ -1,0 +1,42 @@
+.section-features{
+    padding-top: 105px;
+    padding-bottom: 105px;
+    background-image: url("../immg/tipo-gradient_2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.features-container {
+    outline: solid 1px white;
+}
+
+
+
+.f-image {
+    width: 240px;
+    height: 240px; 
+}
+
+.features-text {
+    display: flex;
+    font-family: "Playfair Display sc", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    color: #fff;
+}
+
+.featuers-list {
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+    align-items: center;
+}
+
+.features-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}

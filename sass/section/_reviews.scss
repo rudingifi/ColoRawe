@@ -1,0 +1,100 @@
+.section-reviews {
+    padding-top: 114px;
+    padding-bottom: 114px;
+    background-image: url("../immg/tipo-gradient.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.reviews-title {
+    font-family: "Playfair Display sc", sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.reviews-list {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviews-description {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: #fff;
+    width: 228px;
+    height: 112px;
+    margin-bottom: 8px;
+    margin-top: 49px;
+    margin-right: 14px;
+    margin-left: 14px;
+}
+
+.reviews-date {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #D8D8D8;
+    width: 36px;
+    height: 16px;
+    margin-bottom: 47px;
+    margin-left: 14px;
+}
+
+.reviews-name {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    width: 101px;
+    height: 16px;
+    margin-left: 49px;
+}
+
+
+.reviews-year {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #D8D8D8;
+    width: 99px;
+    height: 14px;
+    margin-left: 49px;
+}
+
+.reviews-item.g1 {
+    width: 255px;
+    height: 292px;
+    background: linear-gradient(
+    150deg,rgba(0, 229, 230, 1) 0%,rgba(0, 168, 247, 1) 30%,rgba(154, 118, 249, 1) 60%,rgba(204, 94, 194, 1) 100%);
+    border-radius: 15px;
+    box-shadow:0px 14px 0px -5px rgba(123, 84, 178, 0.75),
+    0px 30px 0px -13px rgba(83, 57, 120, 0.75);
+}
+
+.reviews-item.g2 {
+    width: 255px;
+    height: 292px;
+    background: #FF68B4;
+    background: linear-gradient(150deg, rgba(255, 104, 180, 1) 0%, rgba(255, 69, 225, 1) 30%, rgba(206, 58, 255, 1) 60%, rgba(137, 97, 255, 1) 100%);
+    border-radius: 15px;
+    box-shadow: 0px 14px 0px -5px rgba(145,89,177,0.75),
+    0px 30px 0px -13px rgba(97,51,124,0.75);
+    
+}
+
+.reviews-item.g3 {
+    width: 255px;
+    height: 292px;
+    background: #FFE128;
+    background: linear-gradient(150deg, rgba(255, 225, 40, 1) 0%, rgba(255, 155, 92, 1) 30%, rgba(255, 131, 129, 1) 60%, rgba(255, 84, 137, 1) 100%);   
+    border-radius: 15px;
+    box-shadow: 0px 14px 0px -5px rgba(185,90,76,0.75),
+    0px 30px 0px -13px rgba(115,47,38,0.75);
+}
